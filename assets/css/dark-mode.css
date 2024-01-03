@@ -1,0 +1,26 @@
+body:has(.navbar form input:checked) {
+  background-color: black;
+}
+
+body:has(.navbar form input:checked) .special-head h2 {
+  --light-brightness: 80%;
+  color: var(--light-color);
+}
+
+body:has(.navbar form input:checked) .serv .icon {
+  color: var(--main-color);
+}
+
+body:has(.navbar form input:checked) .port ul {
+  color: var(--main-color);
+}
+
+body:has(.navbar form input:checked) .testimonial  .head h4,
+body:has(.navbar form input:checked) .testimonial  .info p,
+body:has(.navbar form input:checked) .testimonial  .shape-col h4 {
+  color: var(--light-color);
+}
+
+body:has(.navbar form input:checked) .contact .col .box h5 {
+  color: var(--light-color);
+}
