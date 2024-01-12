@@ -536,9 +536,9 @@ width: 80%;
 }
 
 .featurs figure img{
-  width: 50%;
   transform: translateY(170px);
 }
+
 .featurs .feat-content{
   background-color: var(--transparent-color);
   color: var(--light-color);
@@ -577,15 +577,8 @@ width: 80%;
 }
 
 /* Start media */
-@media screen and (max-width: 1200px) {
-  .featurs figure img {
-    width: 70%;
-  }
-}
+
 @media screen and (max-width: 992px) {
-  .featurs figure img {
-    width: 90%;
-  }
   .featurs .feat-content h3 {
     font-size: 20px;
   }
